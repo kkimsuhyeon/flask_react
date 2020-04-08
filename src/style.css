@@ -1,0 +1,44 @@
+/*레이아웃*/
+.wrap{width:100%;height:100%;}
+.wrap .header { height: 150px;}
+.wrap .content {height: 600px; padding-top: 40px; }
+
+/*헤더*/
+.header #logo{ position: absolute; ;width: 200px;left: 10%; top: 50px;}
+#logo img {width: 100%;}
+.header .title {position: absolute ; font-size: 1.75rem; color: rgb(44, 59, 109); right: 10%; top: 60px;}
+
+/*컨텐트*/
+.pw {width: 650px; height: 200px; margin: 0 auto;text-align: center; vertical-align: middle; padding-top: 80px; }
+.icon {width: 650px;margin: 0 auto; height: 30px; vertical-align: middle; line-height: 30px; padding-left: 40px;}
+.option {width: 650px; height:200px; background-color: yellow; margin: 0 auto;}
+
+input { font-size: 16px;}
+#plaintext {display: inline-block ;width: 550px; height: 35px; border-radius: 7px; margin-bottom: 13px; margin-right: 5px;}
+#Encrypted {display: inline-block ;width: 550px; height: 35px; border-radius: 7px; margin-bottom: 20px; margin-right: 5px;}
+#btn1 {width: 55px; height: 38px; }
+#btn2 {width: 55px; height: 38px; }
+
+#create {width: 240px; height: 40px;  margin-right: 10px; }
+#secret {width: 240px; height: 40px;  margin-right: 10px;}
+#del {width: 105px; height: 40px;}
+
+
+
+/* 버튼 초기화 */
+button {border: none;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px; box-shadow: 0 4px 6px rgba(17, 17, 56, 0.11), 0 1px 3px rgba(0,0,0,0.08);
+  }
+
+  /*옵션아이콘*/
+.icon i {color: #444; font-size: 0.98rem; cursor: pointer;}
+.icon span {padding-left: 3px; font-size: 1.1rem; color: #444; font-weight: 600; }
+
+/*옵션 선택*/
+.option {display: none; margin: 0 auto; }
